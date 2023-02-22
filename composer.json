@@ -1,5 +1,5 @@
 {
-    "name": "gomzyakov/inn-and-other-numbers",
+    "name": "gomzyakov/inn",
     "description": "Валидация и проверка ИНН, ОГРН, БИК и других номеров",
     "type": "package",
     "license": "MIT",
@@ -21,7 +21,7 @@
         "ogrnip",
         "itin"
     ],
-    "homepage": "https://github.com/gomzyakov/inn-and-other-numbers",
+    "homepage": "https://github.com/gomzyakov/inn",
     "authors": [
         {
             "name": "Alexander Gomzyakov",
