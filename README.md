@@ -1,10 +1,10 @@
 # Numbers
 
-[![packagist](https://img.shields.io/packagist/v/gomzyakov/numbers.svg)](https://packagist.org/packages/gomzyakov/numbers)
-[![downloads_count](https://img.shields.io/packagist/dt/gomzyakov/numbers.svg)](https://packagist.org/packages/gomzyakov/numbers)
-[![GitHub release](https://img.shields.io/github/release/gomzyakov/numbers.svg)](https://github.com/gomzyakov/numbers/releases/latest)
+[![packagist](https://img.shields.io/packagist/v/gomzyakov/inn-and-other-numbers.svg)](https://packagist.org/packages/gomzyakov/inn-and-other-numbers)
+[![downloads_count](https://img.shields.io/packagist/dt/gomzyakov/inn-and-other-numbers.svg)](https://packagist.org/packages/gomzyakov/inn-and-other-numbers)
+[![GitHub release](https://img.shields.io/github/release/gomzyakov/inn-and-other-numbers.svg)](https://github.com/gomzyakov/inn-and-other-numbers/releases/latest)
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gomzyakov/numbers/blob/development/LICENSE)
-[![codecov](https://codecov.io/gh/gomzyakov/numbers/branch/main/graph/badge.svg?token=4CYTVMVUYV)](https://codecov.io/gh/gomzyakov/numbers)
+[![codecov](https://codecov.io/gh/gomzyakov/inn-and-other-numbers/branch/main/graph/badge.svg?token=sYbm7W23NV)](https://codecov.io/gh/gomzyakov/inn-and-other-numbers)
 
 A library to validate TIN, INN, BIK and other numbers.
 
