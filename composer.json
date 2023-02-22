@@ -1,6 +1,6 @@
 {
-    "name": "gomzyakov/numbers",
-    "description": "Check the validity of a TIN, INN, BIK and other numbers",
+    "name": "gomzyakov/inn-and-other-numbers",
+    "description": "Валидация и проверка ИНН, ОГРН, БИК и других номеров",
     "type": "package",
     "license": "MIT",
     "keywords": [
@@ -21,7 +21,7 @@
         "ogrnip",
         "itin"
     ],
-    "homepage": "https://github.com/gomzyakov/numbers",
+    "homepage": "https://github.com/gomzyakov/inn-and-other-numbers",
     "authors": [
         {
             "name": "Alexander Gomzyakov",
