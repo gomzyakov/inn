@@ -1,4 +1,4 @@
-# Numbers
+# Проверка валидности ИНН на PHP
 
 [![packagist](https://img.shields.io/packagist/v/gomzyakov/inn.svg)](https://packagist.org/packages/gomzyakov/inn)
 [![downloads_count](https://img.shields.io/packagist/dt/gomzyakov/inn.svg)](https://packagist.org/packages/gomzyakov/inn)
