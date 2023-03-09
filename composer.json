@@ -1,6 +1,6 @@
 {
     "name": "gomzyakov/inn",
-    "description": "Валидация и проверка ИНН, ОГРН, БИК и других номеров",
+    "description": "Проверка валидности ИНН на PHP",
     "type": "package",
     "license": "MIT",
     "keywords": [
@@ -9,17 +9,7 @@
         "validation",
         "verification",
         "inn",
-        "tin",
-        "pin",
-        "ean",
-        "snils",
-        "ssn",
-        "ein",
-        "kpp",
-        "bik",
-        "ogrn",
-        "ogrnip",
-        "itin"
+        "tin"
     ],
     "homepage": "https://github.com/gomzyakov/inn",
     "authors": [
@@ -29,7 +19,7 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6",
