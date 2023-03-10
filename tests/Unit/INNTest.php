@@ -2,11 +2,11 @@
 
 namespace Tests\Unit;
 
-use Gomzyakov\Numbers\INN;
+use Gomzyakov\Validator\INN;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Gomzyakov\Numbers\INN
+ * @covers \Gomzyakov\Validator\INN
  */
 final class INNTest extends TestCase
 {

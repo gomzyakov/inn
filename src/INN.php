@@ -2,21 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Gomzyakov\Numbers;
+namespace Gomzyakov\Validator;
 
 class INN
 {
     /**
-     * @var string
-     */
-    private string $inn_number;
-
-    /**
      * @param string $inn_number
      */
-    public function __construct(string $inn_number)
-    {
-        $this->inn_number = $inn_number;
+    public function __construct(
+        readonly string $inn_number
+    ) {
     }
 
     /**
