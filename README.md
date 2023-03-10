@@ -23,28 +23,22 @@ Everything is very simple. For example, you can create and verify a TIN like thi
 ```php
 use Gomzyakov\Validator\INN;
 
-# ИНН-номер
-$inn_number = '2245134075';
+# Создаём объект ИНН-номера
+$inn = new INN('526317984689');
 
-# Create a parser
-$inn = Numbers::createINN($inn_number);
-# Or so
-# $inn = INN::create($inn_number);
-# $inn = new INN($number);
-
-# Checking the correctness of the TIN
+# Проверяем корректность ИНН-номера
 if ($inn->isValid()) {
-    echo "INN is valid!";
+    echo "Номер ИНН верен!";
 }
 ```
 
-Or you can use the short form of validation:
+Вы также можете использовать статический метод для простой валидации ИНН:
 
 ```php
 
-$is_valid_number = Numbers::validateINN('2245134075')
+$is_valid_number = INN::validate('526317984689')
 
-echo $$is_valid_number; // true
+echo $is_valid_number; // true
 ```
 
 
