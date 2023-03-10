@@ -1,4 +1,4 @@
-name: test
+name: PHPUnit
 
 on:
   push:
@@ -12,13 +12,13 @@ permissions:
   contents: read
 
 jobs:
-  phpunit:
+  test:
     runs-on: ${{ matrix.operating-system }}
 
     strategy:
       matrix:
         operating-system: ['ubuntu-latest']
-        php-versions: ['7.4', '8.0', '8.1']
+        php-versions: ['8.1', '8.2']
 
     steps:
       - name: Checkout code
