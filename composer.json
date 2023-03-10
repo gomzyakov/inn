@@ -26,7 +26,7 @@
         "phpstan/phpstan": "^1.10",
         "mockery/mockery": "^1.5",
         "friendsofphp/php-cs-fixer": "^3.14",
-        "gomzyakov/php-cs-fixer-config": "^1.13"
+        "gomzyakov/php-cs-fixer-config": "^1.14"
     },
     "autoload": {
         "psr-4": {
