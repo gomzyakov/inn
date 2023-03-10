@@ -6,19 +6,19 @@
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gomzyakov/numbers/blob/development/LICENSE)
 [![codecov](https://codecov.io/gh/gomzyakov/inn/branch/main/graph/badge.svg?token=sYbm7W23NV)](https://codecov.io/gh/gomzyakov/inn)
 
-A library to validate TIN, INN, BIK and other numbers.
+Пакет для валидации ИНН (идентификационный номер налогоплательщика) как физлица (12 цифр), так и юрлица (10 цифр).
 
-## Installation
+## Установка
 
-Just require it in your project via [Composer](https://getcomposer.org):
+Используя [Composer](https://getcomposer.org):
 
 ```bash
 composer require gomzyakov/inn
 ```
 
-## How to use
+## Использование
 
-Everything is very simple. For example, you can create and verify a TIN like this::
+Все очень просто. Например, вы можете создать и проверить ИНН следующим образом:
 
 ```php
 use Gomzyakov\Validator\INN;
@@ -32,7 +32,7 @@ if ($inn->isValid()) {
 }
 ```
 
-Вы также можете использовать статический метод для простой валидации ИНН:
+Вы также можете использовать статический метод `validate` для простой валидации ИНН:
 
 ```php
 
@@ -40,8 +40,3 @@ $is_valid_number = INN::validate('526317984689')
 
 echo $is_valid_number; // true
 ```
-
-
-## License
-
-This is open-sourced software licensed under the [MIT License](https://github.com/gomzyakov/inn/blob/main/LICENSE).
