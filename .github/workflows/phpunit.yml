@@ -1,4 +1,4 @@
-name: test
+name: PHPUnit
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 jobs:
-  phpunit:
+  test:
     runs-on: ${{ matrix.operating-system }}
 
     strategy:
