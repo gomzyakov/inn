@@ -6,48 +6,37 @@
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gomzyakov/numbers/blob/development/LICENSE)
 [![codecov](https://codecov.io/gh/gomzyakov/inn/branch/main/graph/badge.svg?token=sYbm7W23NV)](https://codecov.io/gh/gomzyakov/inn)
 
-A library to validate TIN, INN, BIK and other numbers.
+Пакет для валидации ИНН (идентификационный номер налогоплательщика) как физлица (12 цифр), так и юрлица (10 цифр).
 
-## Installation
+## Установка
 
-Just require it in your project via [Composer](https://getcomposer.org):
+Используя [Composer](https://getcomposer.org):
 
 ```bash
 composer require gomzyakov/inn
 ```
 
-## How to use
+## Использование
 
-Everything is very simple. For example, you can create and verify a TIN like this::
+Все очень просто. Например, вы можете создать и проверить ИНН следующим образом:
 
 ```php
 use Gomzyakov\Validator\INN;
 
-# ИНН-номер
-$inn_number = '2245134075';
+# Создаём объект ИНН-номера
+$inn = new INN('526317984689');
 
-# Create a parser
-$inn = Numbers::createINN($inn_number);
-# Or so
-# $inn = INN::create($inn_number);
-# $inn = new INN($number);
-
-# Checking the correctness of the TIN
+# Проверяем корректность ИНН-номера
 if ($inn->isValid()) {
-    echo "INN is valid!";
+    echo "Номер ИНН верен!";
 }
 ```
 
-Or you can use the short form of validation:
+Вы также можете использовать статический метод `validate` для простой валидации ИНН:
 
 ```php
 
-$is_valid_number = Numbers::validateINN('2245134075')
+$is_valid_number = INN::validate('526317984689')
 
-echo $$is_valid_number; // true
+echo $is_valid_number; // true
 ```
-
-
-## License
-
-This is open-sourced software licensed under the [MIT License](https://github.com/gomzyakov/inn/blob/main/LICENSE).
