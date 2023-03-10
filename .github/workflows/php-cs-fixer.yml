@@ -8,7 +8,12 @@ on:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.operating-system }}
+
+    strategy:
+      matrix:
+        operating-system: [ 'ubuntu-latest' ]
+        php-versions: [ '8.2' ]
 
     steps:
       - name: Checkout code
