@@ -1,10 +1,8 @@
 # Проверка валидности ИНН на PHP
 
-[![packagist](https://img.shields.io/packagist/v/gomzyakov/inn.svg)](https://packagist.org/packages/gomzyakov/inn)
-[![downloads_count](https://img.shields.io/packagist/dt/gomzyakov/inn.svg)](https://packagist.org/packages/gomzyakov/inn)
 [![GitHub release](https://img.shields.io/github/release/gomzyakov/inn.svg)](https://github.com/gomzyakov/inn/releases/latest)
-[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gomzyakov/numbers/blob/development/LICENSE)
 [![codecov](https://codecov.io/gh/gomzyakov/inn/branch/main/graph/badge.svg?token=sYbm7W23NV)](https://codecov.io/gh/gomzyakov/inn)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gomzyakov/numbers/blob/development/LICENSE)
 
 Пакет для валидации ИНН (идентификационный номер налогоплательщика) как физлица (12 цифр), так и юрлица (10 цифр).
 
